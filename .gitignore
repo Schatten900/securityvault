@@ -1,0 +1,32 @@
+### Diretórios gerados ###
+/target/          # Build do Java (Spring Boot)
+/node_modules/    # Dependências do Node.js
+/dist/            # Build do frontend (Vite/React)
+/bin/
+/build/
+
+### Arquivos de ambiente ###
+.env              # Variáveis sensíveis
+.env.local        # Overrides locais
+.env*.local       # Outros ambientes locais
+
+### Docker ###
+docker-compose.override.yml
+**/.dockerignore
+**/Dockerfile
+**/docker-compose.yml
+
+### IDE ###
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+### Logs ###
+*.log
+logs/
+
+### Sistemas Operacionais ###
+.DS_Store        # macOS
+Thumbs.db        # Windows
